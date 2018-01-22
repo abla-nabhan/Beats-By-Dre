@@ -6,6 +6,9 @@ WHITE: #ffffff;
  font-family: 'Oswald', sans-serif;
 font-family: 'Nunito Sans', sans-serif; */
 
+
+/************************************************************
+GENERAL STYLES */
 h1, h2, h3{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -30,9 +33,21 @@ button{
     font-size: 12px
 }
 
+/************************************************************
+HEADER STYLES */
 header{
     height: 80px;
     background: #161616;
+    padding-top: 20px;
+
+}
+
+header .logo {
+    background-image: url('../img/logo.svg');
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+
 
 }
 
