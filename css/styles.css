@@ -50,22 +50,35 @@ header .logo {
     float: left;
 }
 header ul{
-    background: red;
     float: right;
     margin-top: 10px;
     padding-left: 0;
+    width: calc(100% - 60px);
+    text-align: right;
 
 }
 header li{
     display: inline-block;
+
     margin-left: 25px;
 }
 
-header a{
+header a,
+header a:visited{
     color: white;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
+
+header a:hover,
+header a:focus,
+header a:active{
+    opacity: 0.9;
+    text-decoration: none;
+    color: white;
+
+}
+
 .hero{
     height: 400px;
     background: #999;
