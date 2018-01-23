@@ -24,9 +24,36 @@ h3{
     font-size: 36px;
     font-weight: 700;
 }
+
+h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 p{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
+}
+
+ul {
+    padding: 0;
+}
+
+a{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+li{
+    list-style: none;
+}
+
+.logo {
+    background-image: url('../img/logo.svg');
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+
 }
 
 .button{
@@ -58,6 +85,7 @@ p{
     border: 2px solid #999;
     color: white;
 }
+
 /************************************************************
 HEADER STYLES */
 header{
@@ -67,20 +95,11 @@ header{
 
 }
 
-header .logo {
-    background-image: url('../img/logo.svg');
-    height: 40px;
-    width: 40px;
-    background-size: 40px;
-
-}
-
 
 /* Desktop */
 .desktop-nav ul{
     float: right;
     margin-top: 10px;
-    padding-left: 0;
     width: calc(100% - 60px);
     text-align: right;
 
@@ -93,8 +112,6 @@ header .logo {
 .desktop-nav a,
 .desktop-nav a:visited{
     color: white;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
 }
 
 .desktop-nav a:hover,
@@ -242,5 +259,21 @@ FOOTER STYLES */
 
 footer{
     height: 400px;
-    background: #161616;
+    background: white;
+    padding: 80px 0;
+}
+
+footer a{
+    color: #999;
+    font-size: .8em;
+    line-height: 3;
+}
+
+.social-icons li{
+    display: inline-block;
+}
+
+.social-icons i{
+    font-size: 2em;
+    margin-right: 5px;
 }
