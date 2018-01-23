@@ -179,14 +179,27 @@ HERO STYLES */
 
 .hero-text-container p{
     margin-bottom: 40px;
+    font-weight: 600;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 786px) {
     .hero {
         background-image: url(../img/hero-small.jpg);
+        height: 60vh;
+        text-align: center;
     }
-
+    .hero-text-container{
+        padding:20vh;
+    }
+    .hero-text-container p{
+        min-width: 200px;
+        text-align: center;
+    }
+    .hero-text-container button{
+        display: inline-block;
+    }
 }
+
 /************************************************************
 PRODUCT LINEUP STYLES */
 
