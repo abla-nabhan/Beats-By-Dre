@@ -134,9 +134,14 @@ header .logo {
 HERO STYLES */
 
 .hero{
-    height: 400px;
+    /* the minus 80 px is to make room for the header */
+    height: calc(100vh - 80px);
     background: #999;
+    background-image: url(../img/hero-large.jpg);
+    background-size: cover;
 }
+
+
 
 /************************************************************
 PRODUCT LINEUP STYLES */
