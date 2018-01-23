@@ -25,14 +25,39 @@ h3{
     font-weight: 700;
 }
 p{
-    font-family: 'sans-serif';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
 }
 
-button{
+.button{
     font-family: 'Oswald', sans-serif;
-    font-size: 12px
+    font-size: 12px;
+    background: #e01e3c;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-right: 10px;
+
 }
 
+.red-button{
+    background: #e01e3c;
+    border: 2px solid #e01e3c;
+    color: white;
+}
+
+.light-button{
+    background: transparent;
+    border: 2px solid #999;
+    color: white;
+}
+
+.dark-button{
+    background: #e01e3c;
+    border: 2px solid #999;
+    color: white;
+}
 /************************************************************
 HEADER STYLES */
 header{
@@ -139,11 +164,29 @@ HERO STYLES */
     background: #999;
     background-image: url(../img/hero-large.jpg);
     background-size: cover;
+    background-position: center;
     color: white;
+    text-align: center;
 }
 
+.hero-text-container{
+    padding-top: 60vh;
+}
 
+.hero-text-container h1{
+    margin-bottom: 20px;
+}
 
+.hero-text-container p{
+    margin-bottom: 40px;
+}
+
+@media (max-width: 700px) {
+    .hero {
+        background-image: url(../img/hero-small.jpg);
+    }
+
+}
 /************************************************************
 PRODUCT LINEUP STYLES */
 
