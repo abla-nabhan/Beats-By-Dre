@@ -51,7 +51,8 @@ header .logo {
 }
 
 
-header ul{
+/* Desktop */
+.desktop-nav ul{
     float: right;
     margin-top: 10px;
     padding-left: 0;
@@ -59,21 +60,21 @@ header ul{
     text-align: right;
 
 }
-header li{
+.desktop-nav li{
     display: inline-block;
     margin-left: 25px;
 }
 
-header a,
-header a:visited{
+.desktop-nav a,
+.desktop-nav a:visited{
     color: white;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
-header a:hover,
-header a:focus,
-header a:active{
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active{
     opacity: 0.9;
     text-decoration: none;
     color: white;
@@ -84,10 +85,14 @@ header a:active{
     float: left;
 }
 
+
+
+/* mobile */
 .mobile-nav{
     display: none;
     text-align: center;
 }
+
 
 .mobile-nav .logo{
     display: inline-block;
@@ -98,6 +103,8 @@ header a:active{
     width: 40px;
     display: inline-block;
     margin-left: -4px;
+    vertical-align: top;
+    margin-top: 8px;
 }
 
 .mobile-nav .logo-container{
@@ -121,26 +128,58 @@ header a:active{
     }
 }
 
+
+
+/************************************************************
+HERO STYLES */
+
 .hero{
     height: 400px;
     background: #999;
 }
+
+/************************************************************
+PRODUCT LINEUP STYLES */
+
 .product-lineup-container{
     height: 400px;
     background: #333;
 }
+
+
+
+/************************************************************
+FEATURED PRODUCT STYLES */
+
 .featured-product-container{
     height: 400px;
     background: #444;
 }
+
+
+
+/************************************************************
+PRODUCT SUPPORT STYLES */
+
 .product-support-container{
     height: 400px;
     background: #555;
 }
+
+
+
+/************************************************************
+SUBSCRIPTION STYLES */
+
 .subscription-container{
     height: 400px;
     background: #666;
 }
+
+
+/************************************************************
+FOOTER STYLES */
+
 footer{
     height: 400px;
     background: #161616;
