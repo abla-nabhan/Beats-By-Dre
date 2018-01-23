@@ -189,15 +189,13 @@ HERO STYLES */
         text-align: center;
     }
     .hero-text-container{
-        padding:20vh;
+        padding:20px;
     }
     .hero-text-container p{
         min-width: 200px;
         text-align: center;
     }
-    .hero-text-container button{
-        display: inline-block;
-    }
+
 }
 
 /************************************************************
